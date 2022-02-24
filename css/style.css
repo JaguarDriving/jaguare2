@@ -1,0 +1,147 @@
+*{  /*todos os elementos*/
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+header{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title{
+    font-size: 26px;
+
+   }
+.classe-A{
+margin: 1em ;
+text-decoration: none
+
+}
+.classe-B{
+    margin: 1em ;
+    text-decoration: none;
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    bottom: 40px;
+    right: 40px;
+    }
+section{
+    padding: 10px;
+    /*background-image: url('../images/jaguar_driving.jpg');*/
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+    
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color:white;
+    background-color: #48C5CE;
+    font-weight: bold;
+}
+select{
+    -moz-appearance: none ;
+    -webkit-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+
+    
+}
+
+footer{
+    background-color: #202121;
+    padding: 0px;
+    text-align: center;
+    
+}
+.picture{
+    width: 50px;
+}
+.picturezap{
+    width: 150px;
+    text-decoration: none
+}
+.description{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+
+}
+
+.picture2{
+    display: inline-block;
+    width: 250px;
+}
+
+
+.sectionvideos{
+    background-color: #202121;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none
+}
+
+
+
+.redirecionamento-maps{
+    text-decoration: none
+}
+.picturezap2{
+    width: 40px;
+    height: 40px;
+    text-decoration: none
+}
+
+.enderecos{
+
+    background-color: #202120;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.p-endereco{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.p-telefone{
+    text-align: left;
+    font-weight: bolder;
+}
